@@ -1,12 +1,9 @@
 ﻿using System;
 
-namespace ArrayObject
+namespace ArrayExampleProject
 {
     public static class ArrayTasks
     {
-        /// <summary>
-        /// Task 1
-        /// </summary>
         public static void ChangeElementsInArray(int[] nums)
         {
             for (int i = 0; i < nums.Length / 2; i++)
@@ -20,9 +17,6 @@ namespace ArrayObject
             }
         }
 
-        /// <summary>
-        /// Task 2
-        /// </summary>
         public static int DistanceBetweenFirstAndLastOccurrenceOfMaxValue(int[] nums)
         {
             if (nums.Length == 0)
@@ -56,9 +50,6 @@ namespace ArrayObject
             }
         }
 
-        /// <summary>
-        /// Task 3 
-        /// </summary>
         public static void ChangeMatrixDiagonally(int[,] matrix)
         {
             for (int i = 0; i < matrix.GetLength(0); i++)
